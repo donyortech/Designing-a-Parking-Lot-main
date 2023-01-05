@@ -29,20 +29,23 @@
   <img src="./images/Activity%20Diagram.png" alt="Activity Diagram">
 </div>
 <div>
-  <h2>Class Diagram</h2>
+<h2 style="color: brown;">Class Diagram</h2>
   <p>
-    ParkingLot: The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other parking lots and ‘Address’ to define its location.
-ParkingFloor: The parking lot will have many parking floors.
-ParkingSpot: Each parking floor will have many parking spots. Our system will support different parking spots 1) Handicapped, 2) Compact, 3) Large, 4) Motorcycle, and 5) Electric.
-Account: We will have two types of accounts in the system: one for an Admin, and the other for a parking attendant.
-Parking ticket: This class will encapsulate a parking ticket. Customers will take a ticket when they enter the parking lot.
-Vehicle: Vehicles will be parked in the parking spots. Our system will support different types of vehicles 1) Car, 2) Truck, 3) Electric, 4) Van and 5) Motorcycle.
-EntrancePanel and ExitPanel: EntrancePanel will print tickets, and ExitPanel will facilitate payment of the ticket fee.
-Payment: This class will be responsible for making payments. The system will support credit card and cash transactions.
-ParkingRate: This class will keep track of the hourly parking rates. It will specify a dollar amount for each hour. For example, for a two hour parking ticket, this class will define the cost for the first and the second hour.
-ParkingDisplayBoard: Each parking floor will have a display board to show available parking spots for each spot type. This class will be responsible for displaying the latest availability of free parking spots to the customers.
-ParkingAttendantPortal: This class will encapsulate all the operations that an attendant can perform, like scanning tickets and processing payments.
-CustomerInfoPortal: This class will encapsulate the info portal that customers use to pay for the parking ticket. Once paid, the info portal will update the ticket to keep track of the payment.
-ElectricPanel: Customers will use the electric panels to pay and charge their electric vehicles.
+  <ul>
+  <li>ParkingLot: The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other parking lots and ‘Address’ to define its location.</li>
+  <li>ParkingFloor: The parking lot will have many parking floors.</li>
+  <li>ParkingSpot: Each parking floor will have many parking spots. Our system will support different parking spots 1) Handicapped, 2) Compact, 3) Large, 4) Motorcycle, and 5) Electric.</li>
+  <li>Account: We will have two types of accounts in the system: one for an Admin, and the other for a parking attendant.</li>
+  <li>Parking ticket: This class will encapsulate a parking ticket. Customers will take a ticket when they enter the parking lot.</li>
+  <li>Vehicle: Vehicles will be parked in the parking spots. Our system will support different types of vehicles 1) Car, 2) Truck, 3) Electric, 4) Van and 5) Motorcycle.</li>
+  <li>EntrancePanel and ExitPanel: EntrancePanel will print tickets, and ExitPanel will facilitate payment of the ticket fee.</li>
+  <li>Payment: This class will be responsible for making payments. The system will support credit card and cash transactions.</li>
+  <li>ParkingRate: This class will keep track of the hourly parking rates. It will specify a dollar amount for each hour. For example, for a two hour parking ticket, this class will define the cost for the first and the second hour.</li>
+  <li>ParkingDisplayBoard: Each parking floor will have a display board to show available parking spots for each spot type. This class will be responsible for displaying the latest availability of free parking spots to the customers.</li>
+  <li>ParkingAttendantPortal: This class will encapsulate all the operations that an attendant can perform, like scanning tickets and processing payments.</li>
+  <li>CustomerInfoPortal: This class will encapsulate the info portal that customers use to pay for the parking ticket. Once paid, the info portal will update the ticket to keep track of the payment.</li>
+  <li>ElectricPanel: Customers will use the electric panels to pay and charge their electric vehicles.</li>
+</ul>
+<img src="./images/Class%20Diagram.png" alt="Class Diagram">
   </p>
 </div>
