@@ -4,7 +4,7 @@
 <p>
   <h2>Use Case Diagram</h2>
   <ul>
-    <li>Admin: Mainly responsible for adding and modifying parking floors, parking spots, entrance, and exit panels, adding/removing parking attendants, etc.</li>
+    <li><a href="#">Admin:</a> Mainly responsible for adding and modifying parking floors, parking spots, entrance, and exit panels, adding/removing parking attendants, etc.</li>
     <li>Customer: All customers can get a parking ticket and pay for it.</li>
     <li>Parking Attendant: Parking attendants can do all the activities on the customer’s behalf, and can take cash for ticket payment.</li>
     <li>System: To display messages on different info panels, as well as assigning and removing a vehicle from a parking spot.</li>
