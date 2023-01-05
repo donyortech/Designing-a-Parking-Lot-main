@@ -1,5 +1,6 @@
 # Designing a Parking Lot
 ## ID:209076003
+### The rapid development of automobiles and the increase in the number of automobiles on the surface of the earth are causing huge traffic jams in big cities. To solve such a problem, we need to fit the number of parking spaces into small areas, and a system made with a plan will find an effective solution.
 
 <div>
 <p>
